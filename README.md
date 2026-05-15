@@ -1,15 +1,15 @@
 <div align="center">
 
-# 🌱 AgriAI — Multi-Agent System for Smart Pesticide Recommendation
+# 🚀 Venture Discovery AI System
 
-### 🧠 AI-Powered Multi-Agent Pipeline for Pesticide Risk Analysis and Eco-Friendly Recommendations
+### 🧠 AI-Powered Multi-Agent Platform for Automated Startup Idea Generation & Market Analysis
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Streamlit-Interactive-red?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Multi--Agent-AI-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/CrewAI-Multi--Agent-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LLM-Automation-purple?style=for-the-badge"/>
 </p>
 
 </div>
@@ -18,65 +18,77 @@
 
 # 📌 Overview
 
-**AgriAI** is an AI-powered multi-agent system designed to help farmers, agronomists, and decision-makers make smarter and safer pesticide choices.
+This project presents a full-stack AI platform designed to automate the **venture discovery process** using:
 
-The platform automatically:
+- 🤖 Large Language Models (LLMs)
+- 🧠 Multi-agent reasoning systems
+- 🔄 AI workflow orchestration
+- 📊 Market opportunity analysis
+- ⚙️ Low-code / no-code AI automation
 
-- 🔎 Searches pesticide information online
-- 📊 Extracts and structures product details
-- ⚠️ Analyzes health and environmental risks using LLMs
-- 🌿 Suggests safer biological alternatives
-- 📝 Generates structured recommendation reports
+The system transforms raw market data into actionable startup opportunities by automatically:
 
-The project combines:
-
-- Multi-Agent AI Systems
-- Large Language Models (LLMs)
-- Web Search Automation
-- AI Risk Assessment
-- Streamlit Dashboards
-
-to build a practical AI solution for smart agriculture.
+- Generating startup ideas
+- Performing market research
+- Evaluating business feasibility
+- Ranking opportunities
+- Identifying market gaps
 
 ---
 
 # 🎯 Problem Statement
 
-Choosing the right pesticide can be difficult and risky due to:
+Traditional venture discovery is often:
 
-- Limited access to reliable product information
-- Difficulty understanding health/environmental risks
-- Lack of awareness about biological alternatives
-- Time-consuming manual research
+- ❌ Time-consuming
+- ❌ Resource-intensive
+- ❌ Dependent on expert knowledge
+- ❌ Difficult for non-technical users
 
-AgriAI automates this process using AI-driven agents and intelligent information retrieval.
+This project addresses these challenges by building an **end-to-end AI pipeline** capable of automating startup opportunity discovery and business analysis.
 
 ---
 
 # 🚀 Main Features
 
-✅ AI-powered multi-agent architecture  
-✅ Automated pesticide product lookup  
-✅ LLM-based risk analysis using Google Gemini  
-✅ Biological and eco-friendly alternative recommendations  
-✅ Structured report generation  
-✅ Interactive Streamlit dashboard  
-✅ Secure API key management with `.env`  
-✅ Automated web search using SerpAPI  
+✅ AI-powered startup idea generation  
+✅ Multi-agent reasoning using CrewAI  
+✅ Automated market research workflows  
+✅ Venture scoring and ranking  
+✅ White-space opportunity analysis  
+✅ AI-driven business insights  
+✅ Cross-platform workflow orchestration  
+✅ Full-stack frontend + backend architecture  
 
 ---
 
-# 🧠 Multi-Agent Architecture
+# 🧠 System Architecture
 
-The system is composed of **5 specialized AI agents**, each responsible for a specific task.
+The platform integrates multiple AI orchestration systems and autonomous agents.
 
-| Agent | Role |
-|---|---|
-| 🔎 Product Lookup Agent | Searches pesticide information using SerpAPI |
-| 📊 Data Extraction Agent | Structures and extracts product details |
-| ⚠️ Risk Analysis Agent | Uses Gemini LLM for health & environmental analysis |
-| 🌿 Alternative Search Agent | Finds safer biological substitutes |
-| 📝 Report Generation Agent | Generates final recommendation reports |
+---
+
+## 🔵 n8n Workflow
+
+<p align="center">
+  <img src="docs/n8n_pipeline.png" width="1000"/>
+</p>
+
+---
+
+## 🟣 RAGFlow Workflow
+
+<p align="center">
+  <img src="docs/ragflow_pipeline.png" width="1000"/>
+</p>
+
+---
+
+## 🟢 Dify Workflow
+
+<p align="center">
+  <img src="docs/dify_pipeline.png" width="1000"/>
+</p>
 
 ---
 
@@ -85,19 +97,23 @@ The system is composed of **5 specialized AI agents**, each responsible for a sp
 <div align="center">
 
 ```text
-User Input (Pesticide Name)
-            ↓
-Product Lookup Agent
-            ↓
-Data Extraction Agent
-            ↓
-Risk Analysis Agent (Gemini LLM)
-            ↓
-Alternative Search Agent
-            ↓
-Report Generation Agent
-            ↓
-Final Recommendation Report
+User Input
+      ↓
+Query Expansion
+      ↓
+Web Data Collection
+      ↓
+Content Summarization
+      ↓
+AI Startup Idea Generation
+      ↓
+Market Evaluation
+      ↓
+Scoring & Ranking
+      ↓
+White-Space Analysis
+      ↓
+Structured Venture Insights
 ```
 
 </div>
@@ -109,62 +125,70 @@ Final Recommendation Report
 | Category | Technologies |
 |---|---|
 | Programming Language | Python |
-| LLM | Google Gemini |
-| Agent Framework | LangChain |
-| Search API | SerpAPI |
-| Dashboard | Streamlit |
-| Data Handling | Pandas |
-| Visualization | Matplotlib |
-| Environment Management | python-dotenv |
+| Multi-Agent Framework | CrewAI |
+| Backend API | FastAPI |
+| Frontend | React (Vite) |
+| Workflow Automation | n8n |
+| LLM Orchestration | Dify |
+| Retrieval Workflows | RAGFlow |
+| LLM APIs | Mistral / OpenAI |
 
 ---
 
 # 📂 Project Structure
 
 ```bash
-AgriAI/
+venture-discovery-ai-system/
 │
-├── config/
-│   └── settings.py
-│
-├── dashboard/
-│   └── dashboard.py
-│
-├── src/
+├── crewai-backend/
+│   ├── api.py
+│   ├── requirements.txt
 │   ├── agents/
-│   │   ├── product_lookup.py
-│   │   ├── data_extraction.py
-│   │   ├── risk_analysis.py
-│   │   ├── alternative_search.py
-│   │   └── report_generation.py
-│   │
-│   └── utils/
-│       └── google_search.py
+│   ├── tasks/
+│   └── venture-ui/
+│       ├── src/
+│       ├── public/
+│       └── package.json
 │
-├── outputs/
-│   └── report_glyphosate.txt
+├── docs/
+│   ├── n8n_pipeline.png
+│   ├── ragflow_pipeline.png
+│   └── dify_pipeline.png
 │
-├── tests/
-│   ├── test_alternative_search.py
-│   ├── test_data_extraction.py
-│   ├── test_product_lookup.py
-│   └── test_risk_analysis.py
+├── report/
+│   └── Rapport_MFE.pdf
 │
-├── main.py
-├── requirements.txt
-├── .gitignore
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-# 📸 Application Preview
+# 📸 Platform Preview
 
-## 🌿 Smart Pesticide Recommendation Dashboard
+## 🧠 AI Workflow Orchestration
 
 <p align="center">
-  <img width="1000" src="https://github.com/user-attachments/assets/placeholder-image"/>
+  <img src="docs/n8n_pipeline.png" width="1000"/>
 </p>
+
+---
+
+## 📊 Venture Discovery Pipeline
+
+<p align="center">
+  <img src="docs/ragflow_pipeline.png" width="1000"/>
+</p>
+
+---
+
+# 📄 Thesis Report
+
+📄 Full Thesis Report:
+
+```text
+report/Rapport_MFE.pdf
+```
 
 ---
 
@@ -173,150 +197,119 @@ AgriAI/
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/Souadzriouil/AgriAI-Multi-Agent-System-for-Pesticide-Recommendation.git
-cd AgriAI-Multi-Agent-System-for-Pesticide-Recommendation
+git clone https://github.com/Souadzriouil/venture-discovery-ai-system.git
+cd venture-discovery-ai-system
 ```
 
 ---
 
-## 2️⃣ Create Virtual Environment
+# ▶️ Run the Backend
 
 ```bash
-python -m venv venv
-```
-
-### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-### macOS / Linux
-
-```bash
-source venv/bin/activate
-```
-
----
-
-## 3️⃣ Install Dependencies
-
-```bash
+cd crewai-backend
 pip install -r requirements.txt
+uvicorn api:app --reload
 ```
 
 ---
 
-# 🔐 Environment Variables
-
-Create a `.env` file at the project root:
-
-```env
-SERP_API_KEY=your_serpapi_key_here
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
----
-
-# ▶️ Usage
-
-## Run the CLI Pipeline
+# 🌐 Run the Frontend
 
 ```bash
-python main.py
+cd crewai-backend/venture-ui
+npm install
+npm run dev
 ```
 
 ---
 
-## Run the Streamlit Dashboard
-
-```bash
-streamlit run dashboard/dashboard.py
-```
-
----
-
-# 🌐 Access the Dashboard
+# 🚀 Access the Application
 
 Open your browser and navigate to:
 
 ```bash
-http://localhost:8501
+http://localhost:5173
 ```
 
 ---
 
 # 📊 Example Output
 
-Example analysis for **Glyphosate**:
+The system generates structured venture insights including:
 
-```text
-⚠️ Risk Analysis:
-- Probable human carcinogen
-- Harmful to aquatic ecosystems
-- Long-term exposure risks
-
-🌿 Recommended Alternatives:
-- Neem oil
-- Acetic acid-based herbicides
-- Corn gluten meal
-```
+- Feasibility score
+- Market size estimation
+- Growth potential
+- Strategic fit
+- Competitive analysis
+- White-space opportunities
 
 ---
 
-# 🧪 Testing
+# 🧪 Evaluation
 
-Run all tests:
+## 📈 Quantitative Metrics
 
-```bash
-python -m pytest tests/
-```
-
-Run a specific test:
-
-```bash
-python -m pytest tests/test_risk_analysis.py
-```
+- Token usage
+- Response latency
+- Workflow complexity
+- Agent execution performance
 
 ---
 
-# ⚠️ Limitations
+## 📋 Qualitative Metrics
 
-- Output quality depends on search result relevance
-- LLM responses may require human verification
-- Not intended to replace professional agricultural advice
-- Currently supports single pesticide analysis
+- Usability
+- Stability
+- Flexibility
+- Workflow efficiency
+
+---
+
+# 💡 Potential Use Cases
+
+This system can support:
+
+- Startup idea generation
+- Market opportunity analysis
+- Innovation automation
+- Business strategy consulting
+- AI-assisted entrepreneurship
+- Competitive intelligence systems
+
+### Benefits
+
+✅ Faster market research  
+✅ Automated venture analysis  
+✅ AI-assisted strategic decisions  
+✅ Reduced innovation costs  
+✅ Scalable startup evaluation  
+
+---
+
+# ⚠️ Security Note
+
+API keys are not included for security reasons.
+
+Replace:
+
+```env
+your_api_key_here
+```
+
+with your own credentials before running the project.
 
 ---
 
 # 🔮 Future Improvements
 
 - [ ] Add Retrieval-Augmented Generation (RAG)
+- [ ] Real-time market trend monitoring
 - [ ] PDF report export
-- [ ] Public cloud deployment
-- [ ] Multilingual support (Arabic / French / English)
-- [ ] Structured pesticide database
-- [ ] Source citation and explainability
+- [ ] Multi-language support
 - [ ] Advanced dashboard analytics
-
----
-
-# 💡 Potential Use Cases
-
-This platform can support:
-
-- Smart agriculture systems
-- Environmental risk analysis
-- Sustainable farming
-- Agricultural consulting
-- AI-assisted agronomy tools
-
-### Benefits
-
-✅ Faster pesticide analysis  
-✅ Improved environmental awareness  
-✅ Safer agricultural recommendations  
-✅ AI-assisted decision-making  
+- [ ] Cloud deployment
+- [ ] Autonomous AI decision agents
 
 ---
 
@@ -360,4 +353,4 @@ If you find this project useful:
 
 # 📜 License
 
-This project is intended for educational and portfolio purposes.
+This project is intended for educational and research purposes.
